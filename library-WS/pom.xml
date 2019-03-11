@@ -12,25 +12,72 @@
     <module>libraryWS-business</module>
     <module>libraryWS-consumer</module>
     <module>libraryWS-model</module>
+      <module>libraryWS-SpringBootApp</module>
   </modules>
 
   <name>libraryWS</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.1.3.RELEASE</version>
+    <relativePath/> <!-- lookup parent from repository -->
+  </parent>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <java.version>1.8</java.version>
   </properties>
 
   <dependencies>
+
+    <!-- ===== Modules ===== -->
+    <dependency>
+      <groupId>com.libraryWS</groupId>
+      <artifactId>libraryWS-consumer</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.libraryWS</groupId>
+      <artifactId>libraryWS-business</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.libraryWS</groupId>
+      <artifactId>libraryWS-model</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.libraryWS</groupId>
+      <artifactId>libraryWS-SpringBootApp</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+
+    <!-- others-->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-data-jpa</artifactId>
+    </dependency>
+
   </dependencies>
 
   <build>

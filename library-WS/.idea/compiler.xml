@@ -9,7 +9,16 @@
         <module name="libraryWS-business" />
         <module name="libraryWS-consumer" />
         <module name="libraryWS-model" />
+        <module name="libraryWS-SpringBootApp" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="libraryWS-SpringBootApp" options="-parameters" />
+      <module name="libraryWS-business" options="-parameters" />
+      <module name="libraryWS-consumer" options="-parameters" />
+      <module name="libraryWS-model" options="-parameters" />
+    </option>
   </component>
 </project>
