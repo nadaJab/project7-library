@@ -9,6 +9,7 @@ public class BorrowingBook {
     private Date returnDate;
     private boolean isReturn;
     private boolean extension;
+    private User user;
 
     public BorrowingBook(){
 
@@ -59,5 +60,13 @@ public class BorrowingBook {
 
     public void setExtension(boolean extension) {
         this.extension = extension;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
     }
 }

@@ -8,18 +8,12 @@ public class User {
     private String email;
     private String password;
     private boolean isAdmin;
+    private Address address;
 
     public User(){
 
     }
 
-    public User(String firstName, String lastName, String email, String password, boolean isAdmin) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.email = email;
-        this.password = password;
-        this.isAdmin = isAdmin;
-    }
 
     public Integer getIdUser() {
         return idUser;
@@ -67,5 +61,13 @@ public class User {
 
     public void setAdmin(boolean admin) {
         isAdmin = admin;
+    }
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
     }
 }

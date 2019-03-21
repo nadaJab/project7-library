@@ -1,5 +1,6 @@
 package com.libraryWS.beans;
 
+import java.util.ArrayList;
 import java.util.Date;
 
 public class Author {
@@ -9,6 +10,7 @@ public class Author {
     private String lastName;
     private Date birthDate;
     private String nationality;
+    private ArrayList<Book> books;
 
     public Author(){
 
@@ -59,5 +61,13 @@ public class Author {
 
     public void setNationality(String nationality) {
         this.nationality = nationality;
+    }
+
+    public ArrayList<Book> getBooks() {
+        return books;
+    }
+
+    public void setBooks(ArrayList<Book> books) {
+        this.books = books;
     }
 }

@@ -6,21 +6,26 @@ public class Book {
 
     private Integer idBook;
     private String title;
-    private String genre;
+    private BookType bookType;
     private Integer pageNb;
     private Date releaseDate;
     private Integer copiesNb;
+    private Author author;
+    private Editor editor;
 
     public Book(){
 
     }
 
-    public Book(String title, String genre, Integer pageNb, Date releaseDate, Integer copiesNb) {
+    public Book(Integer idBook, String title, BookType bookType, Integer pageNb, Date releaseDate, Integer copiesNb, Author author, Editor editor) {
+        this.idBook = idBook;
         this.title = title;
-        this.genre = genre;
+        this.bookType = bookType;
         this.pageNb = pageNb;
         this.releaseDate = releaseDate;
         this.copiesNb = copiesNb;
+        this.author = author;
+        this.editor = editor;
     }
 
     public Integer getIdBook() {
@@ -39,12 +44,20 @@ public class Book {
         this.title = title;
     }
 
-    public String getGenre() {
-        return genre;
+    public BookType getBookType() {
+        return bookType;
     }
 
-    public void setGenre(String genre) {
-        this.genre = genre;
+    public void setBookType(BookType bookType) {
+        this.bookType = bookType;
+    }
+
+    public Editor getEditor() {
+        return editor;
+    }
+
+    public void setEditor(Editor editor) {
+        this.editor = editor;
     }
 
     public Integer getPageNb() {
@@ -69,5 +82,13 @@ public class Book {
 
     public void setCopiesNb(Integer copiesNb) {
         this.copiesNb = copiesNb;
+    }
+
+    public Author getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(Author author) {
+        this.author = author;
     }
 }
