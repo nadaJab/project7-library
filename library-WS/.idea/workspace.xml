@@ -2,21 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01490148-730f-4c43-a5f0-1c1cc629b1fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/BookType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-SpringBootApp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/java/com/libraryWS/LibraryConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/java/com/libraryWS/LibraryConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/java/com/libraryWS/LibraryEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/java/com/libraryWS/LibraryEndpoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/resources/library.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/resources/library.xsd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-business/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-business/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-model/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/BorrowingBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/BorrowingBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryWS-business/target/libraryWS-business-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-business/target/libraryWS-business-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryWS-business/target/surefire-reports/TEST-com.libraryWS.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-business/target/surefire-reports/TEST-com.libraryWS.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryWS-business/target/surefire-reports/com.libraryWS.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-business/target/surefire-reports/com.libraryWS.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryWS-consumer/target/libraryWS-consumer-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-consumer/target/libraryWS-consumer-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryWS-consumer/target/surefire-reports/TEST-com.libraryWS.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-consumer/target/surefire-reports/TEST-com.libraryWS.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryWS-consumer/target/surefire-reports/com.libraryWS.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-consumer/target/surefire-reports/com.libraryWS.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryWS-model/target/libraryWS-model-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-model/target/libraryWS-model-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryWS-model/target/surefire-reports/TEST-com.libraryWS.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-model/target/surefire-reports/TEST-com.libraryWS.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryWS-model/target/surefire-reports/com.libraryWS.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-model/target/surefire-reports/com.libraryWS.AppTest.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,17 +31,60 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
+            <state relative-caret-position="286">
               <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/libraryWS-SpringBootApp/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="80" column="31" lean-forward="true" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/java/com/libraryWS/LibraryEndpoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/resources/library.xsd">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="125" column="21" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
+            <state relative-caret-position="1628">
+              <caret line="80" column="21" lean-forward="true" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/Author.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1399#1400#0" expanded="true" />
+                <element signature="e#1427#1428#0" expanded="true" />
+                <element signature="e#1478#1479#0" expanded="true" />
+                <element signature="e#1512#1513#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,9 +122,9 @@
         <option value="$PROJECT_DIR$/libraryWS-model/pom.xml" />
         <option value="$PROJECT_DIR$/libraryWS-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/libraryWS-business/pom.xml" />
-        <option value="$PROJECT_DIR$/libraryWS-SpringBootApp/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/resources/library.xsd" />
+        <option value="$PROJECT_DIR$/libraryWS-SpringBootApp/pom.xml" />
       </list>
     </option>
   </component>
@@ -131,6 +170,41 @@
             <path>
               <item name="libraryWS" type="b2602c69:ProjectViewProjectNode" />
               <item name="library-WS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="libraryWS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library-WS" type="462c0819:PsiDirectoryNode" />
+              <item name="libraryWS-model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="libraryWS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library-WS" type="462c0819:PsiDirectoryNode" />
+              <item name="libraryWS-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="libraryWS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library-WS" type="462c0819:PsiDirectoryNode" />
+              <item name="libraryWS-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="libraryWS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library-WS" type="462c0819:PsiDirectoryNode" />
+              <item name="libraryWS-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="libraryWS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library-WS" type="462c0819:PsiDirectoryNode" />
+              <item name="libraryWS-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="libraryWS" type="b2602c69:ProjectViewProjectNode" />
@@ -205,7 +279,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553162237489" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553250208318" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
@@ -241,9 +315,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2033557" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2033557" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -253,7 +326,7 @@
       <window_info anchor="bottom" id="Inspection Results" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.37393767" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.51133144" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -313,13 +386,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -333,19 +399,6 @@
             <element signature="e#1239#1240#0" expanded="true" />
             <element signature="e#1283#1284#0" expanded="true" />
             <element signature="e#1319#1320#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/Author.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1427#1428#0" expanded="true" />
-            <element signature="e#1478#1479#0" expanded="true" />
-            <element signature="e#1512#1513#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -372,20 +425,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/java/com/libraryWS/LibraryEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libraryWS-SpringBootApp/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1848">
-          <caret line="84" column="32" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libraryWS-model/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -409,15 +448,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
+        <state relative-caret-position="286">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/java/com/libraryWS/LibraryEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1399#1400#0" expanded="true" />
+            <element signature="e#1427#1428#0" expanded="true" />
+            <element signature="e#1478#1479#0" expanded="true" />
+            <element signature="e#1512#1513#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/resources/library.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="125" column="21" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
+        <state relative-caret-position="1628">
+          <caret line="80" column="21" lean-forward="true" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraryWS-SpringBootApp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="80" column="31" lean-forward="true" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
         </state>
       </provider>
     </entry>

@@ -79,7 +79,7 @@
                 <version>2.3.1</version>
                 <executions>
                     <execution>
-                        <id>xjc</id>
+                        <id>xjc-schema</id>
                         <goals>
                             <goal>xjc</goal>
                         </goals>
@@ -87,19 +87,11 @@
                 </executions>
                 <configuration>
                     <sources>
-                        <source>src/main/resources</source>
+                        <source>src/main/resources/library.xsd</source>
                     </sources>
-                    <packageName>com.libraryWS</packageName>
+                    <packageName>com.libraryWS-SpringBootApp.lib-WS</packageName>
                     <clearOutputDir>false</clearOutputDir>
                 </configuration>
-                <!--
-                <configuration>
-                    <sources>
-                        <source>src/main/resources</source>
-                    </sources>
-                    <packageName>com.libraryWS</packageName>
-                    <clearOutputDir>false</clearOutputDir>
-                </configuration> -->
             </plugin>
 
         </plugins>
