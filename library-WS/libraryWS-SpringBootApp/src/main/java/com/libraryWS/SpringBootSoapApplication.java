@@ -8,6 +8,6 @@ public class SpringBootSoapApplication
 {
     public static void main( String[] args )
     {
-        SpringApplication.run(App.class, args);
+        SpringApplication.run(SpringBootSoapApplication.class, args);
     }
 }

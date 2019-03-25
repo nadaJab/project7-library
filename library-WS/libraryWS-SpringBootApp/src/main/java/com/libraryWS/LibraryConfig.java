@@ -34,6 +34,6 @@ public class LibraryConfig extends WsConfigurerAdapter {
     }
     @Bean
     public XsdSchema librarySchema() {
-        return new SimpleXsdSchema(new ClassPathResource("library.xsd"));
+        return new SimpleXsdSchema(new ClassPathResource("xsd/library.xsd"));
     }
 }

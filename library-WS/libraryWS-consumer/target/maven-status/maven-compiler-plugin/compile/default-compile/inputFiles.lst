@@ -1,1 +1,7 @@
-C:\Users\nadas\Desktop\projet7-openclassrooms\Project7-library\library-WS\libraryWS-consumer\src\main\java\com\libraryWS\App.java
+C:\Users\nadas\Desktop\projet7-openclassrooms\Project7-library\library-WS\libraryWS-consumer\src\main\java\com\libraryWS\contract\dao\BorrowingBookDao.java
+C:\Users\nadas\Desktop\projet7-openclassrooms\Project7-library\library-WS\libraryWS-consumer\src\main\java\com\libraryWS\contract\dao\AuthorDao.java
+C:\Users\nadas\Desktop\projet7-openclassrooms\Project7-library\library-WS\libraryWS-consumer\src\main\java\com\libraryWS\impl\dao\UserDaoImpl.java
+C:\Users\nadas\Desktop\projet7-openclassrooms\Project7-library\library-WS\libraryWS-consumer\src\main\java\com\libraryWS\contract\dao\BookDao.java
+C:\Users\nadas\Desktop\projet7-openclassrooms\Project7-library\library-WS\libraryWS-consumer\src\main\java\com\libraryWS\contract\DaoFactory.java
+C:\Users\nadas\Desktop\projet7-openclassrooms\Project7-library\library-WS\libraryWS-consumer\src\main\java\com\libraryWS\impl\DaoFactoryImpl.java
+C:\Users\nadas\Desktop\projet7-openclassrooms\Project7-library\library-WS\libraryWS-consumer\src\main\java\com\libraryWS\contract\dao\UserDao.java

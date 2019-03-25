@@ -1,19 +1,46 @@
 package com.libraryWS.beans;
 
-public class User {
+import javax.persistence.*;
+import java.io.Serializable;
 
+@Entity
+@Table(name="user")
+public class User implements Serializable{
+
+    @Id @GeneratedValue
+    @Column(name = "id_user", unique = true, nullable = false)
     private Integer idUser;
+
+    @Column(name = "first_name", unique = false, nullable = false)
     private String firstName;
+
+    @Column(name = "last_name", unique = false, nullable = false)
     private String lastName;
+
+    @Column(name = "email", unique = true, nullable = false)
     private String email;
+
+    @Column(name = "password", nullable = false)
     private String password;
+
+    @Column(name = "is_admin", columnDefinition = "boolean DEFAULT false")
     private boolean isAdmin;
+
+    @OneToMany(mappedBy="user", cascade=CascadeType.ALL, fetch = FetchType.LAZY)
     private Address address;
 
     public User(){
 
     }
 
+    public User(String firstName, String lastName, String email, String password, boolean isAdmin, Address address) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.password = password;
+        this.isAdmin = isAdmin;
+        this.address = address;
+    }
 
     public Integer getIdUser() {
         return idUser;
