@@ -1,6 +1,7 @@
 package com.libraryWS.impl;
 
-import org.springframework.stereotype.Component;
+import com.libraryWS.DaoFactoryImpl;
+
 import javax.inject.Inject;
 import javax.inject.Named;
 

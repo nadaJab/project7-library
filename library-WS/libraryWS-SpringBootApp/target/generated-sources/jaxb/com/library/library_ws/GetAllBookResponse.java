@@ -2,7 +2,7 @@
 // Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.7 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
-// Généré le : 2019.03.25 à 03:13:55 PM CET 
+// Généré le : 2019.03.29 à 10:41:32 AM CET 
 //
 
 
@@ -27,7 +27,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="books" type="{http://www.library.com/library-ws}Book" maxOccurs="unbounded"/>
+ *         &lt;element name="books" type="{http://www.library.com/library-ws}BookInfo" maxOccurs="unbounded"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -44,7 +44,7 @@ import javax.xml.bind.annotation.XmlType;
 public class GetAllBookResponse {
 
     @XmlElement(required = true)
-    protected List<Book> books;
+    protected List<BookInfo> books;
 
     /**
      * Gets the value of the books property.
@@ -64,13 +64,13 @@ public class GetAllBookResponse {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Book }
+     * {@link BookInfo }
      * 
      * 
      */
-    public List<Book> getBooks() {
+    public List<BookInfo> getBooks() {
         if (books == null) {
-            books = new ArrayList<Book>();
+            books = new ArrayList<BookInfo>();
         }
         return this.books;
     }

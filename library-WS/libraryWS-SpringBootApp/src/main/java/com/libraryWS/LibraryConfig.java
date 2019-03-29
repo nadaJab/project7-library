@@ -1,5 +1,6 @@
 package com.libraryWS;
 
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
@@ -23,12 +24,12 @@ public class LibraryConfig extends WsConfigurerAdapter {
         servlet.setTransformWsdlLocations(true);
         return new ServletRegistrationBean(servlet, "/soapws/*");
     }
-    @Bean
+    @Bean(name = "library")
     public DefaultWsdl11Definition defaultWsdl11Definition(XsdSchema librarySchema) {
         DefaultWsdl11Definition wsdl11Definition = new DefaultWsdl11Definition();
-        wsdl11Definition.setPortTypeName("ArticlesPort");
-        wsdl11Definition.setLocationUri("/soapws");
-        wsdl11Definition.setTargetNamespace("http://www.library-nada.com/library-ws");
+        wsdl11Definition.setPortTypeName("LibarayPort");
+        wsdl11Definition.setLocationUri("/ws");
+        wsdl11Definition.setTargetNamespace(LibraryEndpoint.NAMESPACE_URI);
         wsdl11Definition.setSchema(librarySchema);
         return wsdl11Definition;
     }

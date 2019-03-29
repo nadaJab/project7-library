@@ -1,7 +1,6 @@
-com\libraryWS\contract\dao\UserDao.class
-com\libraryWS\impl\dao\UserDaoImpl.class
-com\libraryWS\contract\DaoFactory.class
-com\libraryWS\contract\dao\BookDao.class
-com\libraryWS\contract\dao\BorrowingBookDao.class
-com\libraryWS\contract\dao\AuthorDao.class
-com\libraryWS\impl\DaoFactoryImpl.class
+com\libraryWS\DaoFactory.class
+com\libraryWS\repository\BookRepository.class
+com\libraryWS\repository\AuthorRepository.class
+com\libraryWS\repository\UserRepository.class
+com\libraryWS\DaoFactoryImpl.class
+com\libraryWS\repository\BorrowingBookRepository.class

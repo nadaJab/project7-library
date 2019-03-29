@@ -2,7 +2,7 @@
 // Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.7 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
-// Généré le : 2019.03.25 à 03:13:55 PM CET 
+// Généré le : 2019.03.29 à 10:41:32 AM CET 
 //
 
 
@@ -26,7 +26,7 @@ import javax.xml.bind.annotation.XmlType;
  *       &lt;sequence>
  *         &lt;element name="title" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="author" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="bookType" type="{http://www.library.com/library-ws}BookType" minOccurs="0"/>
+ *         &lt;element name="bookType" type="{http://www.library.com/library-ws}BookTypeInfo" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -46,7 +46,7 @@ public class GetBookRequest {
 
     protected String title;
     protected String author;
-    protected BookType bookType;
+    protected BookTypeInfo bookType;
 
     /**
      * Obtient la valeur de la propriété title.
@@ -101,10 +101,10 @@ public class GetBookRequest {
      * 
      * @return
      *     possible object is
-     *     {@link BookType }
+     *     {@link BookTypeInfo }
      *     
      */
-    public BookType getBookType() {
+    public BookTypeInfo getBookType() {
         return bookType;
     }
 
@@ -113,10 +113,10 @@ public class GetBookRequest {
      * 
      * @param value
      *     allowed object is
-     *     {@link BookType }
+     *     {@link BookTypeInfo }
      *     
      */
-    public void setBookType(BookType value) {
+    public void setBookType(BookTypeInfo value) {
         this.bookType = value;
     }
 

@@ -13,7 +13,7 @@
     <xs:element name="loginResponse">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="user" type="tns:User"/>
+                <xs:element name="user" type="tns:UserInfo"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -21,7 +21,7 @@
     <xs:element name="logoutRequest">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="id" type="tns:User" />
+                <xs:element name="id" type="tns:UserInfo" />
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -36,7 +36,7 @@
     <xs:element name="getAllBookResponse">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="books" type="tns:Book" maxOccurs="unbounded"/>
+                <xs:element name="books" type="tns:BookInfo" maxOccurs="unbounded"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -46,40 +46,55 @@
             <xs:sequence>
                 <xs:element name="title" type="xs:string"  minOccurs="0"/>
                 <xs:element name="author" type="xs:string"  minOccurs="0"/>
-                <xs:element name="bookType" type="tns:BookType"  minOccurs="0"/>
+                <xs:element name="bookType" type="tns:BookTypeInfo"  minOccurs="0"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
     <xs:element name="getBookResponse">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="book" type="tns:Book" />
+                <xs:element name="book" type="tns:BookInfo" />
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    <xs:complexType name="Book">
+
+    <xs:element name="getBookByTitleRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="title" type="xs:string"  minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="getBookByTitleResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="book" type="tns:BookInfo" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="BookInfo">
         <xs:sequence>
             <xs:element name="idBook" type="xs:int"/>
             <xs:element name="title" type="xs:string"/>
-            <xs:element name="bookType" type="tns:BookType"/>
+            <xs:element name="bookType" type="tns:BookTypeInfo"/>
             <xs:element name="pageNb" type="xs:int"/>
             <xs:element name="releaseDate" type="xs:date"/>
             <xs:element name="copiesNb" type="xs:int"/>
-            <xs:element name="author" type="tns:Author"/>
-            <xs:element name="editor" type="tns:Editor"/>
+            <xs:element name="author" type="tns:AuthorInfo"/>
+            <xs:element name="editor" type="tns:EditorInfo"/>
         </xs:sequence>
     </xs:complexType>
-    <xs:complexType name="Author">
+    <xs:complexType name="AuthorInfo">
         <xs:sequence>
             <xs:element name="idAuthor" type="xs:int"/>
             <xs:element name="firstName" type="xs:string"/>
             <xs:element name="lastName" type="xs:string"/>
             <xs:element name="birthDate" type="xs:date"/>
             <xs:element name="nationality" type="xs:string"/>
-            <xs:element name="books" type="tns:Book" maxOccurs="unbounded" minOccurs="0" />
+            <xs:element name="books" type="tns:BookInfo" maxOccurs="unbounded" minOccurs="0" />
         </xs:sequence>
     </xs:complexType>
-    <xs:simpleType name="BookType">
+    <xs:simpleType name="BookTypeInfo">
         <xs:restriction base="xs:string">
             <xs:enumeration value="SCIENCE_FICTION"/>
             <xs:enumeration value="POLICIER"/>
@@ -87,17 +102,17 @@
             <xs:enumeration value="HEROIC_FANTASY"/>
         </xs:restriction>
     </xs:simpleType>
-    <xs:complexType name="BorrowingBook">
+    <xs:complexType name="BorrowingBookInfo">
         <xs:sequence>
             <xs:element name="idBorrowingBook" type="xs:int"/>
             <xs:element name="borrowingDate" type="xs:date"/>
             <xs:element name="returnDate" type="xs:date"/>
             <xs:element name="isReturn" type="xs:boolean"/>
             <xs:element name="extension" type="xs:boolean"/>
-            <xs:element name="user" type="tns:Book"/>
+            <xs:element name="user" type="tns:BookInfo"/>
         </xs:sequence>
     </xs:complexType>
-    <xs:complexType name="Editor">
+    <xs:complexType name="EditorInfo">
         <xs:sequence>
             <xs:element name="idEditor" type="xs:int"/>
             <xs:element name="name" type="xs:string"/>
@@ -105,7 +120,7 @@
             <xs:element name="country" type="xs:string"/>
         </xs:sequence>
     </xs:complexType>
-    <xs:complexType name="User">
+    <xs:complexType name="UserInfo">
         <xs:sequence>
             <xs:element name="idUser" type="xs:int"/>
             <xs:element name="firstName" type="xs:string"/>
@@ -115,7 +130,7 @@
             <xs:element name="isAdmin" type="xs:boolean"/>
         </xs:sequence>
     </xs:complexType>
-    <xs:complexType name="Address">
+    <xs:complexType name="AddressInfo">
         <xs:sequence>
             <xs:element name="idAddress" type="xs:int"/>
             <xs:element name="streetNumber" type="xs:int"/>

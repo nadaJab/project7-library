@@ -15,6 +15,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="library-WS" options="-parameters" />
       <module name="libraryWS-SpringBootApp" options="-parameters" />
       <module name="libraryWS-business" options="-parameters" />
       <module name="libraryWS-consumer" options="-parameters" />

@@ -2,7 +2,7 @@
 // Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.7 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
-// Généré le : 2019.03.25 à 03:13:55 PM CET 
+// Généré le : 2019.03.29 à 10:41:32 AM CET 
 //
 
 
@@ -45,11 +45,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link Book }
+     * Create an instance of {@link BookInfo }
      * 
      */
-    public Book createBook() {
-        return new Book();
+    public BookInfo createBookInfo() {
+        return new BookInfo();
     }
 
     /**
@@ -69,11 +69,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link User }
+     * Create an instance of {@link UserInfo }
      * 
      */
-    public User createUser() {
-        return new User();
+    public UserInfo createUserInfo() {
+        return new UserInfo();
     }
 
     /**
@@ -101,11 +101,27 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link GetBookByTitleResponse }
+     * 
+     */
+    public GetBookByTitleResponse createGetBookByTitleResponse() {
+        return new GetBookByTitleResponse();
+    }
+
+    /**
      * Create an instance of {@link LogoutRequest }
      * 
      */
     public LogoutRequest createLogoutRequest() {
         return new LogoutRequest();
+    }
+
+    /**
+     * Create an instance of {@link GetBookByTitleRequest }
+     * 
+     */
+    public GetBookByTitleRequest createGetBookByTitleRequest() {
+        return new GetBookByTitleRequest();
     }
 
     /**
@@ -117,35 +133,35 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link Address }
+     * Create an instance of {@link EditorInfo }
      * 
      */
-    public Address createAddress() {
-        return new Address();
+    public EditorInfo createEditorInfo() {
+        return new EditorInfo();
     }
 
     /**
-     * Create an instance of {@link BorrowingBook }
+     * Create an instance of {@link AuthorInfo }
      * 
      */
-    public BorrowingBook createBorrowingBook() {
-        return new BorrowingBook();
+    public AuthorInfo createAuthorInfo() {
+        return new AuthorInfo();
     }
 
     /**
-     * Create an instance of {@link Author }
+     * Create an instance of {@link BorrowingBookInfo }
      * 
      */
-    public Author createAuthor() {
-        return new Author();
+    public BorrowingBookInfo createBorrowingBookInfo() {
+        return new BorrowingBookInfo();
     }
 
     /**
-     * Create an instance of {@link Editor }
+     * Create an instance of {@link AddressInfo }
      * 
      */
-    public Editor createEditor() {
-        return new Editor();
+    public AddressInfo createAddressInfo() {
+        return new AddressInfo();
     }
 
 }

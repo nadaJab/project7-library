@@ -2,7 +2,7 @@
 // Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.7 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
-// Généré le : 2019.03.25 à 03:13:55 PM CET 
+// Généré le : 2019.03.29 à 10:41:32 AM CET 
 //
 
 
@@ -25,7 +25,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="user" type="{http://www.library.com/library-ws}User"/>
+ *         &lt;element name="user" type="{http://www.library.com/library-ws}UserInfo"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -42,17 +42,17 @@ import javax.xml.bind.annotation.XmlType;
 public class LoginResponse {
 
     @XmlElement(required = true)
-    protected User user;
+    protected UserInfo user;
 
     /**
      * Obtient la valeur de la propriété user.
      * 
      * @return
      *     possible object is
-     *     {@link User }
+     *     {@link UserInfo }
      *     
      */
-    public User getUser() {
+    public UserInfo getUser() {
         return user;
     }
 
@@ -61,10 +61,10 @@ public class LoginResponse {
      * 
      * @param value
      *     allowed object is
-     *     {@link User }
+     *     {@link UserInfo }
      *     
      */
-    public void setUser(User value) {
+    public void setUser(UserInfo value) {
         this.user = value;
     }
 

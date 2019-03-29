@@ -1,13 +1,16 @@
 package com.libraryWS.contract.manager;
 
 import com.libraryWS.beans.Book;
+import com.libraryWS.beans.BookType;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public interface BookManager {
 
-    ArrayList<Book> getAllBook();
-
-    Book getBook(String title, String authorName, String BookType);
+    public List<Book> getAllBook();
+    public Book getBookByTitle(String title);
+    public List<Book> getBookByAuthorName(String authorName);
+    public List<Book> getBookByBookType(BookType bookType);
+    public Book getBookByTitleAuthorNameBookType(String title, String authorName, BookType BookType);
 
 }
