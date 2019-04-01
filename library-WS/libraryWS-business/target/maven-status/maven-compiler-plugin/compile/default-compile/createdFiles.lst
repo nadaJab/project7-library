@@ -4,5 +4,5 @@ com\libraryWS\impl\manager\BookManagerImpl.class
 com\libraryWS\contract\manager\AuthorManager.class
 com\libraryWS\contract\manager\UserManager.class
 com\libraryWS\impl\ManagerFactoryImpl.class
-com\libraryWS\impl\AbstractManagerImpl.class
+com\libraryWS\impl\manager\UserManagerImpl.class
 com\libraryWS\contract\manager\BorrowingBookManager.class

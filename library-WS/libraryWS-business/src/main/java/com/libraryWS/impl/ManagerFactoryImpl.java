@@ -16,10 +16,11 @@ public class ManagerFactoryImpl implements ManagerFactory {
     private UserManager userManager;
     @Autowired
     private BookManager bookManager;
+/*
     @Autowired
     private  AuthorManager authorManager;
     @Autowired
-    private BorrowingBookManager borrowingBookManager;
+    private BorrowingBookManager borrowingBookManager; */
 
     public UserManager getUserManager(){
         return this.userManager;
@@ -28,14 +29,14 @@ public class ManagerFactoryImpl implements ManagerFactory {
     public BookManager getBookManager() {
         return this.bookManager;
     }
-
+/*
     public AuthorManager getAuthorManager() {
         return this.authorManager;
     }
 
     public BorrowingBookManager getBorrowingBookManager(){
         return this.borrowingBookManager;
-}
+} */
 
     public void setUserManager(UserManager userManager) {
         this.userManager = userManager;
@@ -44,12 +45,12 @@ public class ManagerFactoryImpl implements ManagerFactory {
     public void setBookManager(BookManager bookManager) {
         this.bookManager = bookManager;
     }
-
+/*
     public void setAuthorManager(AuthorManager authorManager) {
         this.authorManager = authorManager;
     }
 
     public void setBorrowingBookManager(BorrowingBookManager borrowingBookManager) {
         this.borrowingBookManager = borrowingBookManager;
-    }
+    } */
 }

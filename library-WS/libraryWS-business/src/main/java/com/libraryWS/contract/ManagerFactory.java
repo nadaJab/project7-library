@@ -6,6 +6,7 @@ public interface ManagerFactory {
 
        UserManager getUserManager();
        BookManager getBookManager();
+       /*
        AuthorManager getAuthorManager();
-       BorrowingBookManager getBorrowingBookManager();
+       BorrowingBookManager getBorrowingBookManager(); */
 }

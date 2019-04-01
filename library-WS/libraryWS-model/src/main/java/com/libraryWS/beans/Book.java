@@ -1,23 +1,43 @@
 package com.libraryWS.beans;
 
+import javax.persistence.*;
 import java.util.Date;
 
+@Entity
+@Table(name="book")
 public class Book {
 
+    @Id
+    @GeneratedValue
+    @Column(name = "id_book", unique = true, nullable = false)
     private Integer idBook;
+
+    @Column(name = "title", unique = true, nullable = false)
     private String title;
-    private BookType bookType;
+
+    @Column(name = "genre", unique = false, nullable = false)
+    private String bookType;
+
+    @Column(name = "pagesnb", unique = false, nullable = false)
     private Integer pageNb;
+
+    @Column(name = "releasedate", unique = false, nullable = false)
     private Date releaseDate;
+
+    @Column(name = "copiesnb", unique = false, nullable = false)
     private Integer copiesNb;
+
+    @OneToMany(mappedBy="book", cascade=CascadeType.ALL, fetch = FetchType.LAZY)
     private Author author;
+
+    @OneToMany(mappedBy="user", cascade=CascadeType.ALL, fetch = FetchType.LAZY)
     private Editor editor;
 
     public Book(){
 
     }
 
-    public Book(Integer idBook, String title, BookType bookType, Integer pageNb, Date releaseDate, Integer copiesNb, Author author, Editor editor) {
+    public Book(Integer idBook, String title, String bookType, Integer pageNb, Date releaseDate, Integer copiesNb, Author author, Editor editor) {
         this.idBook = idBook;
         this.title = title;
         this.bookType = bookType;
@@ -44,11 +64,11 @@ public class Book {
         this.title = title;
     }
 
-    public BookType getBookType() {
+    public String getBookType() {
         return bookType;
     }
 
-    public void setBookType(BookType bookType) {
+    public void setBookType(String bookType) {
         this.bookType = bookType;
     }
 
