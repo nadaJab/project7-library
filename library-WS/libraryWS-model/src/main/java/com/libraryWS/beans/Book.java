@@ -7,30 +7,13 @@ import java.util.Date;
 @Table(name="book")
 public class Book {
 
-    @Id
-    @GeneratedValue
-    @Column(name = "id_book", unique = true, nullable = false)
     private Integer idBook;
-
-    @Column(name = "title", unique = true, nullable = false)
     private String title;
-
-    @Column(name = "genre", unique = false, nullable = false)
     private String bookType;
-
-    @Column(name = "pagesnb", unique = false, nullable = false)
     private Integer pageNb;
-
-    @Column(name = "releasedate", unique = false, nullable = false)
     private Date releaseDate;
-
-    @Column(name = "copiesnb", unique = false, nullable = false)
     private Integer copiesNb;
-
-    @OneToMany(mappedBy="book", cascade=CascadeType.ALL, fetch = FetchType.LAZY)
     private Author author;
-
-    @OneToMany(mappedBy="user", cascade=CascadeType.ALL, fetch = FetchType.LAZY)
     private Editor editor;
 
     public Book(){
@@ -48,6 +31,9 @@ public class Book {
         this.editor = editor;
     }
 
+    @Id
+    @GeneratedValue
+    @Column(name = "id_book", unique = true, nullable = false)
     public Integer getIdBook() {
         return idBook;
     }
@@ -56,6 +42,7 @@ public class Book {
         this.idBook = idBook;
     }
 
+    @Column(name = "title", unique = true, nullable = false)
     public String getTitle() {
         return title;
     }
@@ -64,6 +51,7 @@ public class Book {
         this.title = title;
     }
 
+    @Column(name = "genre", unique = false, nullable = false)
     public String getBookType() {
         return bookType;
     }
@@ -72,6 +60,8 @@ public class Book {
         this.bookType = bookType;
     }
 
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "id_editor", nullable = false)
     public Editor getEditor() {
         return editor;
     }
@@ -80,6 +70,7 @@ public class Book {
         this.editor = editor;
     }
 
+    @Column(name = "pagesnb", unique = false, nullable = false)
     public Integer getPageNb() {
         return pageNb;
     }
@@ -88,6 +79,7 @@ public class Book {
         this.pageNb = pageNb;
     }
 
+    @Column(name = "releasedate", unique = false, nullable = false)
     public Date getReleaseDate() {
         return releaseDate;
     }
@@ -96,6 +88,7 @@ public class Book {
         this.releaseDate = releaseDate;
     }
 
+    @Column(name = "copiesnb", unique = false, nullable = false)
     public Integer getCopiesNb() {
         return copiesNb;
     }
@@ -104,6 +97,8 @@ public class Book {
         this.copiesNb = copiesNb;
     }
 
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "id_author", nullable = false)
     public Author getAuthor() {
         return author;
     }

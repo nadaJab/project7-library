@@ -1,4 +1,3 @@
-com\library\library_ws\GetBookResponse.class
 com\libraryWS\SpringBootSoapApplication.class
 com\library\library_ws\EditorInfo.class
 com\library\library_ws\BorrowingBookInfo.class
@@ -14,7 +13,6 @@ com\library\library_ws\AddressInfo.class
 com\library\library_ws\BookInfo.class
 com\library\library_ws\GetBookByTitleResponse.class
 com\library\library_ws\AuthorInfo.class
-com\library\library_ws\GetBookRequest.class
 com\libraryWS\LibraryConfig.class
 com\library\library_ws\LoginRequest.class
 com\library\library_ws\LoginResponse.class

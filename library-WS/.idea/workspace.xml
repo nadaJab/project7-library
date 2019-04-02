@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01490148-730f-4c43-a5f0-1c1cc629b1fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/libraryWS-business/src/main/java/com/libraryWS/impl/manager/UserManagerImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/java/com/libraryWS/LibraryConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/java/com/libraryWS/LibraryConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/java/com/libraryWS/LibraryEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/java/com/libraryWS/LibraryEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/resources/xsd/library.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/resources/xsd/library.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/classes/com/library/library_ws/GetBookRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/classes/com/library/library_ws/GetBookResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/classes/com/library/library_ws/ObjectFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/classes/com/library/library_ws/ObjectFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/classes/com/libraryWS/LibraryConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/classes/com/libraryWS/LibraryConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/classes/com/libraryWS/LibraryEndpoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/classes/com/libraryWS/LibraryEndpoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/classes/xsd/library.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/classes/xsd/library.xsd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/generated-sources/jaxb/com/library/library_ws/AddressInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/generated-sources/jaxb/com/library/library_ws/AddressInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/generated-sources/jaxb/com/library/library_ws/AuthorInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/generated-sources/jaxb/com/library/library_ws/AuthorInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/generated-sources/jaxb/com/library/library_ws/BookInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/generated-sources/jaxb/com/library/library_ws/BookInfo.java" afterDir="false" />
@@ -16,8 +22,8 @@
       <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/generated-sources/jaxb/com/library/library_ws/GetAllBookResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/generated-sources/jaxb/com/library/library_ws/GetAllBookResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/generated-sources/jaxb/com/library/library_ws/GetBookByTitleRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/generated-sources/jaxb/com/library/library_ws/GetBookByTitleRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/generated-sources/jaxb/com/library/library_ws/GetBookByTitleResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/generated-sources/jaxb/com/library/library_ws/GetBookByTitleResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/generated-sources/jaxb/com/library/library_ws/GetBookRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/generated-sources/jaxb/com/library/library_ws/GetBookRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/generated-sources/jaxb/com/library/library_ws/GetBookResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/generated-sources/jaxb/com/library/library_ws/GetBookResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/generated-sources/jaxb/com/library/library_ws/GetBookRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/generated-sources/jaxb/com/library/library_ws/GetBookResponse.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/generated-sources/jaxb/com/library/library_ws/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/generated-sources/jaxb/com/library/library_ws/LoginRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/generated-sources/jaxb/com/library/library_ws/LoginResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/generated-sources/jaxb/com/library/library_ws/LoginResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/generated-sources/jaxb/com/library/library_ws/LogoutRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/generated-sources/jaxb/com/library/library_ws/LogoutRequest.java" afterDir="false" />
@@ -27,38 +33,22 @@
       <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/generated-sources/jaxb/com/library/library_ws/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/generated-sources/jaxb/com/library/library_ws/package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/libraryWS-SpringBootApp-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/libraryWS-SpringBootApp-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/libraryWS-SpringBootApp-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/libraryWS-SpringBootApp-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/surefire-reports/TEST-com.libraryWS.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/surefire-reports/TEST-com.libraryWS.AppTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/surefire-reports/com.libraryWS.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-SpringBootApp/target/surefire-reports/com.libraryWS.AppTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-business/src/main/java/com/libraryWS/contract/ManagerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-business/src/main/java/com/libraryWS/contract/ManagerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-business/src/main/java/com/libraryWS/impl/AbstractManagerImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-business/src/main/java/com/libraryWS/impl/ManagerFactoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-business/src/main/java/com/libraryWS/impl/ManagerFactoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-business/src/main/java/com/libraryWS/impl/manager/BookManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-business/src/main/java/com/libraryWS/impl/manager/BookManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-business/target/classes/com/libraryWS/contract/ManagerFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-business/target/classes/com/libraryWS/contract/ManagerFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-business/target/classes/com/libraryWS/impl/AbstractManagerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-business/target/classes/com/libraryWS/impl/ManagerFactoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-business/target/classes/com/libraryWS/impl/ManagerFactoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-business/target/classes/com/libraryWS/impl/manager/BookManagerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-business/target/classes/com/libraryWS/impl/manager/BookManagerImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libraryWS-business/target/libraryWS-business-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-business/target/libraryWS-business-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-business/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-business/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-business/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-business/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libraryWS-business/target/surefire-reports/TEST-com.libraryWS.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-business/target/surefire-reports/TEST-com.libraryWS.AppTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libraryWS-business/target/surefire-reports/com.libraryWS.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-business/target/surefire-reports/com.libraryWS.AppTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-consumer/src/main/java/com/libraryWS/DaoFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-consumer/src/main/java/com/libraryWS/DaoFactoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-consumer/src/main/java/com/libraryWS/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-consumer/src/main/java/com/libraryWS/repository/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-consumer/target/classes/com/libraryWS/DaoFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-consumer/target/classes/com/libraryWS/DaoFactoryImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-consumer/target/classes/com/libraryWS/repository/BookRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-consumer/target/classes/com/libraryWS/repository/BookRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libraryWS-consumer/target/libraryWS-consumer-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-consumer/target/libraryWS-consumer-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libraryWS-consumer/target/surefire-reports/TEST-com.libraryWS.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-consumer/target/surefire-reports/TEST-com.libraryWS.AppTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libraryWS-consumer/target/surefire-reports/com.libraryWS.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-consumer/target/surefire-reports/com.libraryWS.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/Author.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryWS-model/target/classes/com/libraryWS/beans/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-model/target/classes/com/libraryWS/beans/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/Editor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libraryWS-model/target/libraryWS-model-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-model/target/libraryWS-model-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libraryWS-model/target/surefire-reports/TEST-com.libraryWS.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-model/target/surefire-reports/TEST-com.libraryWS.AppTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libraryWS-model/target/surefire-reports/com.libraryWS.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libraryWS-model/target/surefire-reports/com.libraryWS.AppTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -80,36 +70,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libraryWS-consumer/src/main/java/com/libraryWS/repository/UserRepository.java">
+        <entry file="file://$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/java/com/libraryWS/LibraryEndpoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/java/com/libraryWS/SpringBootSoapApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libraryWS-business/src/main/java/com/libraryWS/impl/manager/UserManagerImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="487">
+              <caret line="35" column="74" selection-start-line="35" selection-start-column="74" selection-end-line="35" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,51 +82,45 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/resources/xsd/library.xsd">
+        <entry file="file://$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/Author.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="88" column="32" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libraryWS-business/src/main/java/com/libraryWS/impl/manager/BookManagerImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="25" />
+            <state relative-caret-position="154">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1399#1400#0" expanded="true" />
+                <element signature="e#1427#1428#0" expanded="true" />
+                <element signature="e#1478#1479#0" expanded="true" />
+                <element signature="e#1512#1513#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libraryWS-business/src/main/java/com/libraryWS/impl/ManagerFactoryImpl.java">
+        <entry file="file://$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/Editor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+            <state relative-caret-position="132">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#803#804#0" expanded="true" />
-                <element signature="e#842#843#0" expanded="true" />
-                <element signature="e#885#886#0" expanded="true" />
-                <element signature="e#924#925#0" expanded="true" />
-                <element signature="e#1180#1181#0" expanded="true" />
-                <element signature="e#1226#1227#0" expanded="true" />
-                <element signature="e#1285#1286#0" expanded="true" />
-                <element signature="e#1331#1332#0" expanded="true" />
+                <element signature="e#1010#1011#0" expanded="true" />
+                <element signature="e#1038#1039#0" expanded="true" />
+                <element signature="e#1089#1090#0" expanded="true" />
+                <element signature="e#1123#1124#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <state relative-caret-position="110">
+              <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -177,10 +135,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libraryWS-business/src/main/java/com/libraryWS/contract/ManagerFactory.java">
+        <entry file="file://$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/resources/xsd/library.xsd">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+            <state relative-caret-position="682">
+              <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -205,12 +163,10 @@
         <option value="$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/java/com/libraryWS/App.java" />
         <option value="$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/Adress.java" />
         <option value="$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/resources/book.xsd" />
-        <option value="$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/Editor.java" />
         <option value="$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/Address.java" />
         <option value="$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/java/com/libraryWS/Config.java" />
         <option value="$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/resources/xsd/book.xsd" />
         <option value="$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/BookType.java" />
-        <option value="$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/Author.java" />
         <option value="$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/BorrowingBook.java" />
         <option value="$PROJECT_DIR$/libraryWS-model/pom.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.xml" />
@@ -231,8 +187,6 @@
         <option value="$PROJECT_DIR$/libraryWS-business/src/main/java/com/libraryWS/contract/manager/BookManager.java" />
         <option value="$PROJECT_DIR$/libraryWS-SpringBootApp/pom.xml" />
         <option value="$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/java/com/libraryWS/SpringBootSoapApplication.java" />
-        <option value="$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/java/com/libraryWS/LibraryEndpoint.java" />
-        <option value="$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/java/com/libraryWS/LibraryConfig.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/libraryWS-consumer/src/main/java/com/libraryWS/DaoFactoryImpl.java" />
         <option value="$PROJECT_DIR$/libraryWS-business/src/main/java/com/libraryWS/impl/AbstractManagerImpl.java" />
@@ -243,7 +197,11 @@
         <option value="$PROJECT_DIR$/libraryWS-business/src/main/java/com/libraryWS/impl/ManagerFactoryImpl.java" />
         <option value="$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/resources/xsd/library.xsd" />
+        <option value="$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/java/com/libraryWS/LibraryEndpoint.java" />
+        <option value="$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/java/com/libraryWS/LibraryConfig.java" />
         <option value="$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/Book.java" />
+        <option value="$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/Editor.java" />
+        <option value="$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/Author.java" />
       </list>
     </option>
   </component>
@@ -294,136 +252,6 @@
             <path>
               <item name="libraryWS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="library-WS" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="libraryWS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="libraryWS-business" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="libraryWS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="libraryWS-business" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="libraryWS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="libraryWS-business" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="libraryWS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="libraryWS-business" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="libraryWS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="libraryWS-business" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="libraryWS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="libraryWS-business" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="libraryWS" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="libraryWS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="libraryWS-business" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="libraryWS" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="contract" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="libraryWS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="libraryWS-business" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="libraryWS" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="contract" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="manager" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="libraryWS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="libraryWS-business" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="libraryWS" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="impl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="libraryWS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="libraryWS-business" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="libraryWS" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="impl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="manager" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="libraryWS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="libraryWS-consumer" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="libraryWS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="libraryWS-consumer" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="libraryWS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="libraryWS-consumer" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="libraryWS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="libraryWS-consumer" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="libraryWS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="libraryWS-consumer" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="libraryWS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="libraryWS-consumer" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="libraryWS" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="libraryWS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="libraryWS-consumer" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="libraryWS" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="repository" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="libraryWS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -621,7 +449,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554121198035" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554209795105" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../outils/glassfish-5.0/glassfish5" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -734,7 +562,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23154363" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -790,20 +617,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/library.xsd" />
-    <entry file="file://$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/Author.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1399#1400#0" expanded="true" />
-            <element signature="e#1427#1428#0" expanded="true" />
-            <element signature="e#1478#1479#0" expanded="true" />
-            <element signature="e#1512#1513#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libraryWS-business/src/main/java/com/libraryWS/contract/manager/EditorManager.java" />
     <entry file="file://$PROJECT_DIR$/libraryWS-business/src/main/java/com/libraryWS/contract/manager/BorrowingBookManager.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -876,34 +689,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/BookType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.5.RELEASE/spring-boot-2.0.5.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-18">
           <caret line="464" selection-start-line="464" selection-end-line="464" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/java/com/libraryWS/LibraryConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/Editor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -962,52 +751,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/java/com/libraryWS/LibraryEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="40" column="44" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libraryWS-consumer/src/main/java/com/libraryWS/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libraryWS-consumer/src/main/java/com/libraryWS/repository/BookRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/java/com/libraryWS/SpringBootSoapApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libraryWS-business/src/main/java/com/libraryWS/impl/manager/UserManagerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1038,6 +785,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/libraryWS-business/src/main/java/com/libraryWS/contract/ManagerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraryWS-business/src/main/java/com/libraryWS/impl/manager/UserManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/java/com/libraryWS/SpringBootSoapApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/libraryWS-business/src/main/java/com/libraryWS/impl/manager/BookManagerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
@@ -1045,13 +821,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libraryWS-business/src/main/java/com/libraryWS/contract/ManagerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -1080,6 +849,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/libraryWS-SpringBootApp/target/generated-sources/jaxb/com/library/library_ws/GetAllBookRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/java/com/libraryWS/LibraryEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="35" column="74" selection-start-line="35" selection-start-column="74" selection-end-line="35" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/java/com/libraryWS/LibraryConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/BookType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/resources/xsd/library.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraryWS-consumer/src/main/java/com/libraryWS/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1089,18 +909,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libraryWS-SpringBootApp/src/main/resources/xsd/library.xsd">
+    <entry file="file://$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/Editor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="88" column="32" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
+        <state relative-caret-position="132">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1038#1039#0" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraryWS-model/src/main/java/com/libraryWS/beans/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1399#1400#0" expanded="true" />
+            <element signature="e#1427#1428#0" expanded="true" />
+            <element signature="e#1478#1479#0" expanded="true" />
+            <element signature="e#1512#1513#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

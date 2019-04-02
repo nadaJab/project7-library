@@ -33,7 +33,7 @@ public class LibraryEndpoint{
         return response;
     }
 
-    @PayloadRoot(namespace = NAMESPACE_URI, localPart = "getBookRequest")
+    @PayloadRoot(namespace = NAMESPACE_URI, localPart = "getAllBookRequest")
     @ResponsePayload
     public GetAllBookResponse getAllBook(@RequestPayload GetAllBookRequest request) {
         GetAllBookResponse response = new GetAllBookResponse();

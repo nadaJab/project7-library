@@ -28,7 +28,7 @@ public class LibraryConfig extends WsConfigurerAdapter {
     public DefaultWsdl11Definition defaultWsdl11Definition(XsdSchema librarySchema) {
         DefaultWsdl11Definition wsdl11Definition = new DefaultWsdl11Definition();
         wsdl11Definition.setPortTypeName("LibarayPort");
-        wsdl11Definition.setLocationUri("/ws");
+        wsdl11Definition.setLocationUri("/soapws");
         wsdl11Definition.setTargetNamespace(LibraryEndpoint.NAMESPACE_URI);
         wsdl11Definition.setSchema(librarySchema);
         return wsdl11Definition;

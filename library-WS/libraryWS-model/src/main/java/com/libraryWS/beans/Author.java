@@ -1,8 +1,11 @@
 package com.libraryWS.beans;
 
+import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.Date;
 
+@Entity
+@Table(name="author")
 public class Author {
 
     private Integer idAuthor;
@@ -23,6 +26,9 @@ public class Author {
         this.nationality = nationality;
     }
 
+    @Id
+    @GeneratedValue
+    @Column(name = "id_author", unique = true, nullable = false)
     public Integer getIdAuthor() {
         return idAuthor;
     }
@@ -31,6 +37,7 @@ public class Author {
         this.idAuthor = idAuthor;
     }
 
+    @Column(name = "first_name", unique = false, nullable = false)
     public String getFirstName() {
         return firstName;
     }
@@ -39,6 +46,7 @@ public class Author {
         this.firstName = firstName;
     }
 
+    @Column(name = "last_name", unique = false, nullable = false)
     public String getLastName() {
         return lastName;
     }
@@ -47,6 +55,7 @@ public class Author {
         this.lastName = lastName;
     }
 
+    @Column(name = "birthdate", unique = false, nullable = true)
     public Date getBirthDate() {
         return birthDate;
     }
@@ -55,6 +64,7 @@ public class Author {
         this.birthDate = birthDate;
     }
 
+    @Column(name = "nationality", unique = false, nullable = true)
     public String getNationality() {
         return nationality;
     }
@@ -63,6 +73,7 @@ public class Author {
         this.nationality = nationality;
     }
 
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "author")
     public ArrayList<Book> getBooks() {
         return books;
     }
