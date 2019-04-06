@@ -28,6 +28,7 @@
     <xs:element name="logoutResponse">
         <xs:complexType />
     </xs:element>
+
     <!-- method of search book -->
     <!-- get all books -->
     <xs:element name="getAllBookRequest">

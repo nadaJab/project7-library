@@ -1,4 +1,9 @@
 package com.libraryWS.repository;
 
-public interface AuthorRepository {
+import com.libraryWS.beans.Author;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface AuthorRepository extends JpaRepository<Author, Integer> {
 }

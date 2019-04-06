@@ -28,6 +28,10 @@
     <xs:element name="logoutResponse">
         <xs:complexType />
     </xs:element>
+
+    <xs:element name="getIdBookRequest" type="xs:string"/>
+    <xs:element name="getIdBookResponse" type="xs:string"></xs:element>
+
     <!-- method of search book -->
     <!-- get all books -->
     <xs:element name="getAllBookRequest">

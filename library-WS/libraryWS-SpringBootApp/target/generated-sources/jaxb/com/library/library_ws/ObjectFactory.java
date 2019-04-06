@@ -2,13 +2,16 @@
 // Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.7 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
-// Généré le : 2019.04.02 à 02:51:50 PM CEST 
+// Généré le : 2019.04.06 à 09:37:00 AM CEST 
 //
 
 
 package com.library.library_ws;
 
+import javax.xml.bind.JAXBElement;
+import javax.xml.bind.annotation.XmlElementDecl;
 import javax.xml.bind.annotation.XmlRegistry;
+import javax.xml.namespace.QName;
 
 
 /**
@@ -28,6 +31,8 @@ import javax.xml.bind.annotation.XmlRegistry;
 @XmlRegistry
 public class ObjectFactory {
 
+    private final static QName _GetIdBookRequest_QNAME = new QName("http://www.library.com/library-ws", "getIdBookRequest");
+    private final static QName _GetIdBookResponse_QNAME = new QName("http://www.library.com/library-ws", "getIdBookResponse");
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: com.library.library_ws
@@ -146,6 +151,24 @@ public class ObjectFactory {
      */
     public AddressInfo createAddressInfo() {
         return new AddressInfo();
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://www.library.com/library-ws", name = "getIdBookRequest")
+    public JAXBElement<String> createGetIdBookRequest(String value) {
+        return new JAXBElement<String>(_GetIdBookRequest_QNAME, String.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://www.library.com/library-ws", name = "getIdBookResponse")
+    public JAXBElement<String> createGetIdBookResponse(String value) {
+        return new JAXBElement<String>(_GetIdBookResponse_QNAME, String.class, null, value);
     }
 
 }

@@ -6,20 +6,27 @@ import com.libraryWS.contract.manager.BookManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import com.libraryWS.repository.BookRepository;
+import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
 import java.util.ArrayList;
 import java.util.List;
 
-@Component("bookManager")
+@Service
+@Transactional
+@Component
 public class BookManagerImpl implements BookManager {
+
 
     private BookRepository bookRepository;
 
-    private List<Book> list = new ArrayList<>();
+    //private List<Book> list = new ArrayList<>();
 
     @Override
     public List<Book> getAllBook() {
-        list = bookRepository.findAll();
+        List < Book > list = new ArrayList < > ();
+        bookRepository.findAll().forEach(e -> list.add(e));
+        //List<Book> list = bookRepository.findAll();
         //getDaoFactory().getBookRepository().findAll().forEach(e -> list.add(e));
         return list;
     }
@@ -31,18 +38,27 @@ public class BookManagerImpl implements BookManager {
 
     @Override
     public List<Book> getBookByAuthorName(String authorName) {
-        list = bookRepository.findByAuthorName(authorName);
+        List<Book> list = bookRepository.findByAuthorName(authorName);
         return list;
     }
 
     @Override
     public List<Book> getBookByBookType(BookType bookType) {
-        list = bookRepository.findByBookType(bookType);
+        List<Book> list = bookRepository.findByBookType(bookType);
         return list;
     }
 
     @Override
     public Book getBookByTitleAuthorNameBookType(String title, String authorName, BookType bookType) {
         return bookRepository.findByTitleAuthorNameBookType(title, authorName, bookType);
+    }
+
+    @Autowired
+    public BookRepository getBookRepository() {
+        return bookRepository;
+    }
+
+    public void setBookRepository(BookRepository bookRepository) {
+        this.bookRepository = bookRepository;
     }
 }
