@@ -3,16 +3,15 @@ package com.libraryWS.impl.manager;
 import com.libraryWS.beans.Book;
 import com.libraryWS.beans.BookType;
 import com.libraryWS.contract.manager.BookManager;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import com.libraryWS.repository.BookRepository;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
 import java.util.ArrayList;
 import java.util.List;
 
-@Service
+@Service(value = "bookManager")
 @Transactional
 @Component
 public class BookManagerImpl implements BookManager {
@@ -32,7 +31,8 @@ public class BookManagerImpl implements BookManager {
     }
 
     @Override
-    public Book getBookByTitle(String title) {
+    public Book getBookByTitle(String title)
+    {
         return bookRepository.findByTitle(title);
     }
 
@@ -53,7 +53,6 @@ public class BookManagerImpl implements BookManager {
         return bookRepository.findByTitleAuthorNameBookType(title, authorName, bookType);
     }
 
-    @Autowired
     public BookRepository getBookRepository() {
         return bookRepository;
     }

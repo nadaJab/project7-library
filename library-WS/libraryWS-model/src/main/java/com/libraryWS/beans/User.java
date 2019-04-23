@@ -26,20 +26,17 @@ public class User implements Serializable{
     @Column(name = "is_admin", columnDefinition = "boolean DEFAULT false")
     private boolean isAdmin;
 
-    @OneToMany(mappedBy="user", cascade=CascadeType.ALL, fetch = FetchType.LAZY)
-    private Address address;
 
     public User(){
 
     }
 
-    public User(String firstName, String lastName, String email, String password, boolean isAdmin, Address address) {
+    public User(String firstName, String lastName, String email, String password, boolean isAdmin) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
         this.password = password;
         this.isAdmin = isAdmin;
-        this.address = address;
     }
 
     public Integer getIdUser() {
@@ -90,11 +87,4 @@ public class User implements Serializable{
         isAdmin = admin;
     }
 
-    public Address getAddress() {
-        return address;
-    }
-
-    public void setAddress(Address address) {
-        this.address = address;
-    }
 }

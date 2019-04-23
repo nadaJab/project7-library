@@ -2,7 +2,6 @@ package com.libraryWS.contract.manager;
 
 import com.libraryWS.beans.Book;
 import com.libraryWS.beans.BookType;
-
 import java.util.List;
 
 public interface BookManager {

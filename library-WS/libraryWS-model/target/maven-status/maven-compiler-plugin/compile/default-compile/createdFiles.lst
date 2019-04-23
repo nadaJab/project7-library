@@ -1,7 +1,4 @@
 com\libraryWS\beans\User.class
 com\libraryWS\beans\BookType.class
 com\libraryWS\beans\BorrowingBook.class
-com\libraryWS\beans\Author.class
 com\libraryWS\beans\Book.class
-com\libraryWS\beans\Address.class
-com\libraryWS\beans\Editor.class

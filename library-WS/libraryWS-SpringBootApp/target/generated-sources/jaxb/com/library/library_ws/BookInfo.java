@@ -2,7 +2,7 @@
 // Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.7 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
-// Généré le : 2019.04.06 à 09:37:00 AM CEST 
+// Généré le : 2019.04.23 à 04:02:03 PM CEST 
 //
 
 
@@ -11,9 +11,7 @@ package com.library.library_ws;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlType;
-import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
@@ -28,12 +26,12 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *       &lt;sequence>
  *         &lt;element name="idBook" type="{http://www.w3.org/2001/XMLSchema}int"/>
  *         &lt;element name="title" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *         &lt;element name="bookType" type="{http://www.library.com/library-ws}BookTypeInfo"/>
  *         &lt;element name="pageNb" type="{http://www.w3.org/2001/XMLSchema}int"/>
- *         &lt;element name="releaseDate" type="{http://www.w3.org/2001/XMLSchema}date"/>
+ *         &lt;element name="releaseYear" type="{http://www.w3.org/2001/XMLSchema}int"/>
  *         &lt;element name="copiesNb" type="{http://www.w3.org/2001/XMLSchema}int"/>
- *         &lt;element name="author" type="{http://www.library.com/library-ws}AuthorInfo"/>
- *         &lt;element name="editor" type="{http://www.library.com/library-ws}EditorInfo"/>
+ *         &lt;element name="bookType" type="{http://www.library.com/library-ws}BookTypeInfo"/>
+ *         &lt;element name="authorName" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *         &lt;element name="editorName" type="{http://www.w3.org/2001/XMLSchema}string"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -46,29 +44,27 @@ import javax.xml.datatype.XMLGregorianCalendar;
 @XmlType(name = "BookInfo", propOrder = {
     "idBook",
     "title",
-    "bookType",
     "pageNb",
-    "releaseDate",
+    "releaseYear",
     "copiesNb",
-    "author",
-    "editor"
+    "bookType",
+    "authorName",
+    "editorName"
 })
 public class BookInfo {
 
     protected int idBook;
     @XmlElement(required = true)
     protected String title;
-    @XmlElement(required = true)
-    protected BookTypeInfo bookType;
     protected int pageNb;
-    @XmlElement(required = true)
-    @XmlSchemaType(name = "date")
-    protected XMLGregorianCalendar releaseDate;
+    protected int releaseYear;
     protected int copiesNb;
     @XmlElement(required = true)
-    protected AuthorInfo author;
+    protected BookTypeInfo bookType;
     @XmlElement(required = true)
-    protected EditorInfo editor;
+    protected String authorName;
+    @XmlElement(required = true)
+    protected String editorName;
 
     /**
      * Obtient la valeur de la propriété idBook.
@@ -111,6 +107,54 @@ public class BookInfo {
     }
 
     /**
+     * Obtient la valeur de la propriété pageNb.
+     * 
+     */
+    public int getPageNb() {
+        return pageNb;
+    }
+
+    /**
+     * Définit la valeur de la propriété pageNb.
+     * 
+     */
+    public void setPageNb(int value) {
+        this.pageNb = value;
+    }
+
+    /**
+     * Obtient la valeur de la propriété releaseYear.
+     * 
+     */
+    public int getReleaseYear() {
+        return releaseYear;
+    }
+
+    /**
+     * Définit la valeur de la propriété releaseYear.
+     * 
+     */
+    public void setReleaseYear(int value) {
+        this.releaseYear = value;
+    }
+
+    /**
+     * Obtient la valeur de la propriété copiesNb.
+     * 
+     */
+    public int getCopiesNb() {
+        return copiesNb;
+    }
+
+    /**
+     * Définit la valeur de la propriété copiesNb.
+     * 
+     */
+    public void setCopiesNb(int value) {
+        this.copiesNb = value;
+    }
+
+    /**
      * Obtient la valeur de la propriété bookType.
      * 
      * @return
@@ -135,107 +179,51 @@ public class BookInfo {
     }
 
     /**
-     * Obtient la valeur de la propriété pageNb.
-     * 
-     */
-    public int getPageNb() {
-        return pageNb;
-    }
-
-    /**
-     * Définit la valeur de la propriété pageNb.
-     * 
-     */
-    public void setPageNb(int value) {
-        this.pageNb = value;
-    }
-
-    /**
-     * Obtient la valeur de la propriété releaseDate.
+     * Obtient la valeur de la propriété authorName.
      * 
      * @return
      *     possible object is
-     *     {@link XMLGregorianCalendar }
+     *     {@link String }
      *     
      */
-    public XMLGregorianCalendar getReleaseDate() {
-        return releaseDate;
+    public String getAuthorName() {
+        return authorName;
     }
 
     /**
-     * Définit la valeur de la propriété releaseDate.
+     * Définit la valeur de la propriété authorName.
      * 
      * @param value
      *     allowed object is
-     *     {@link XMLGregorianCalendar }
+     *     {@link String }
      *     
      */
-    public void setReleaseDate(XMLGregorianCalendar value) {
-        this.releaseDate = value;
+    public void setAuthorName(String value) {
+        this.authorName = value;
     }
 
     /**
-     * Obtient la valeur de la propriété copiesNb.
-     * 
-     */
-    public int getCopiesNb() {
-        return copiesNb;
-    }
-
-    /**
-     * Définit la valeur de la propriété copiesNb.
-     * 
-     */
-    public void setCopiesNb(int value) {
-        this.copiesNb = value;
-    }
-
-    /**
-     * Obtient la valeur de la propriété author.
+     * Obtient la valeur de la propriété editorName.
      * 
      * @return
      *     possible object is
-     *     {@link AuthorInfo }
+     *     {@link String }
      *     
      */
-    public AuthorInfo getAuthor() {
-        return author;
+    public String getEditorName() {
+        return editorName;
     }
 
     /**
-     * Définit la valeur de la propriété author.
+     * Définit la valeur de la propriété editorName.
      * 
      * @param value
      *     allowed object is
-     *     {@link AuthorInfo }
+     *     {@link String }
      *     
      */
-    public void setAuthor(AuthorInfo value) {
-        this.author = value;
-    }
-
-    /**
-     * Obtient la valeur de la propriété editor.
-     * 
-     * @return
-     *     possible object is
-     *     {@link EditorInfo }
-     *     
-     */
-    public EditorInfo getEditor() {
-        return editor;
-    }
-
-    /**
-     * Définit la valeur de la propriété editor.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link EditorInfo }
-     *     
-     */
-    public void setEditor(EditorInfo value) {
-        this.editor = value;
+    public void setEditorName(String value) {
+        this.editorName = value;
     }
 
 }
