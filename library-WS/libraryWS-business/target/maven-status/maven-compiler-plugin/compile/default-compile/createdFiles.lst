@@ -1,4 +1,0 @@
-com\libraryWS\contract\manager\BookManager.class
-com\libraryWS\impl\manager\BookManagerImpl.class
-com\libraryWS\contract\manager\BorrowingBookManager.class
-com\libraryWS\contract\manager\UserManager.class
