@@ -7,20 +7,25 @@ import java.io.Serializable;
 @Table(name="user_1")
 public class User implements Serializable{
 
-    @Id @GeneratedValue
-    @Column(name = "id_user", unique = true, nullable = false)
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	@Id @GeneratedValue(strategy=GenerationType.AUTO)
+    @Column(name = "id_user")
     private Integer idUser;
 
-    @Column(name = "first_name", unique = false, nullable = false)
+    @Column(name = "first_name")
     private String firstName;
 
-    @Column(name = "last_name", unique = false, nullable = false)
+    @Column(name = "last_name")
     private String lastName;
 
-    @Column(name = "email", unique = true, nullable = false)
+    @Column(name = "email")
     private String email;
 
-    @Column(name = "password", nullable = false)
+    @Column(name = "password")
     private String password;
 
     @Column(name = "is_admin", columnDefinition = "boolean DEFAULT false")
@@ -31,12 +36,11 @@ public class User implements Serializable{
 
     }
 
-    public User(String firstName, String lastName, String email, String password, boolean isAdmin) {
+    public User(String firstName, String lastName, String email, String password) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
         this.password = password;
-        this.isAdmin = isAdmin;
     }
 
     public Integer getIdUser() {
@@ -87,4 +91,11 @@ public class User implements Serializable{
         isAdmin = admin;
     }
 
+	@Override
+	public String toString() {
+		return "User [idUser=" + idUser + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email
+				+ ", password=" + password + ", isAdmin=" + isAdmin + "]";
+	}
+
+    
 }
